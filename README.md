@@ -54,16 +54,17 @@ This project introduces an **automated cold storage monitoring system** using ad
 
 ---
 
-## Architecture Diagram
+## Prototype Hardware Setup
 
-![Prototype Hardware Setup](images/IoT.PNG)
+<img src="images/IoT.PNG" alt="Prototype Hardware Setup" width="500"/>  
 *Prototype hardware setup showing ESP8266, DHT sensor, relay, and fan connections.*
 
 ---
 
-## Analysis of Temperature & Humidity for Cold Storage Monitoring
+## Website Snippet
 
-![Website](images/website.PNG)  
+<img src="images/website.PNG" alt="Website" width="500"/>  
+*Web interface for monitoring and controlling cold storage temperature.*
 
 ---
 
