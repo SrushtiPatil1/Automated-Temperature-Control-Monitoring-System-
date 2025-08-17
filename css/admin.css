@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+body {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f1f7fe;
+}
+.login-img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.img-login {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-card {
+  background-color: greenyellow;
+  margin: 20vh auto;
+  position: relative;
+}
+.form-login {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 140px;
+}
+.card-title {
+  font-size: 35px;
+  color: #2475ff;
+}
+.form-text {
+  font-size: 12px;
+  color: grey;
+}
+.btn-login {
+  border-radius: 25px;
+}
+.btn-login:hover {
+  background-color: white;
+  color: black;
+}
+.form-input-login {
+  font-size: 12px;
+}

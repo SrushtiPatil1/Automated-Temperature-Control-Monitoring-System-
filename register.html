@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <img class="bg" src="https://cdn.pixabay.com/photo/2017/02/09/14/09/calendar-2052492__480.jpg"> -->
+        <img class="bg" src="https://media.istockphoto.com/id/811268074/photo/laptop-computer-desktop-pc-human-hand-office-soft-focus-picture-vintage-concept.jpg?b=1&s=170667a&w=0&k=20&c=tXdCfDzuDTUnxnZKwhWx5B0yJwbw7mVpku60ldp0844=">
+        <div class="registration_form">
+            <form name="reg_form" id="form">
+                <div class="alert">Resgistered Successfully!</div>
+
+                <label class="name_label" for="name">Username</label><br>
+                <input id="name" name="email" type="text" class="username"><br>
+
+                <label class="pass_label" for="pass">Password</label><br>
+                <input id="pass" type="password" class="password"><br>
+
+                <button type="submit" onclick="goToLogin()">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./registration.js"></script>
+</body>
+<!-- <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js"></script> -->
+
+</html>

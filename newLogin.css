@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+.sub {
+    position: absolute;
+    left: 25vh;
+    top: 25vh;
+}
+.username, .password {
+    border-radius: 20px;
+    padding: 15px;
+    width: 40vh;
+    margin: 15px;
+    margin-left: 0.2px;
+}
+::-webkit-input-placeholder {
+    color: black;
+}
+button {
+    margin-top: 10px;
+    width: 25vh;
+    margin-left: 63px;
+    padding: 15px;
+    background-color: rgb(93, 93, 222);
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}

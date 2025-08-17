@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+}
+.bg {
+    width: 100%;
+    height: 39.2em;
+}
+.username, .password, button {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.registration_form {
+    position: absolute;
+    bottom: 10em;
+    left: 31em;
+    padding: 50px;
+    border: 5px solid black;
+    background-color: rgb(20, 207, 145, 0.3);
+}
+.login, .register {
+    padding: 10px;
+    width: 6em;
+}
+.name_label, .pass_label {
+    margin-left: 1em;
+}
+.alert {
+    padding: 10px;
+    margin: 10px;
+    font-weight: 1000;
+    color: rgb(29, 177, 29);
+    font-size: 18px;
+    text-align: center;
+    display: none;
+} 

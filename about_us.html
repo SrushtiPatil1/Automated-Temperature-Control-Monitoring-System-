@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
+</head>
+
+<body>
+
+
+    <h3 class="our-team-heading">Our Project</h3>
+    <div class="about-container">
+        <div class="profile-image">
+            <img src="logo.png" alt="" />
+        </div>
+        <div class="description">
+            <p>
+                Our model comprises of: -<br>
+
+                <strong> Fetched Sensor Data: </strong>DHT stands for Digital Humidity and Temperature. We have used a
+                DHT22 Sensor which continuously fetches real time temperature and humidity data and sends it to the
+                Nodemcu ESP8266. This data can be viewed on the serial monitor.
+            </p>
+            <p>
+                <strong>Send Data To Cloud Server: </strong>In this module we have used Firebase as a cloud server based
+                database. Firebase stores the temperature and humidity data that is provided by the DHT22 sensor. This
+                data is stored for display purposes and for analysis purposes.
+            </p>
+            <p>
+                <strong>Automated Cooling:</strong> A threshold temperature value is asked from the end user(industry
+                expert) and is saved in the database. When this threshold is reached or when this threshold value is
+                crossed, the fan starts cooling. This process is completely automatic and requires no human
+                intervention.
+            </p>
+            <p>
+                <strong>User Interface:</strong> The user can access the data with the help of the website that we have
+                created. Once the user logs in our website, he/she can easily get access to the temperature and humidity
+                data.He/she can set/update the threshold value as per the requirement.
+
+            </p>
+        </div>
+
+
+
+        <h3 class="our-team-heading">Our Team</h3>
+        <div class="team">
+            <p>Abbas Najmi</p><p>Ansh Mehta</p><p>Sakina Sapatwala</p><p>Srushti Patil</p>
+        </div>
+
+
+        <div class="our-mission">
+            <img class="quote-icon" src="images/quote-icon.png" alt="" />
+            <p>Our mission is to provide the best services to our clients.</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
